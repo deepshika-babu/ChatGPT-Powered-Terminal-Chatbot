@@ -7,7 +7,6 @@ A simple interactive chatbot using OpenAI’s GPT-3.5-turbo model.
 - Exit anytime by typing **"quit"**, **"exit"**, or **"bye"**  
 - Lightweight and easy to use  
 
----
 
 ##  Installation & Setup  
 
@@ -38,7 +37,7 @@ python chatbot.py
 ```
 Then, start chatting! Example:
 
-![Chatbot Screenshot]()
+![Chatbot Screenshot](https://github.com/user-attachments/assets/50bb63cb-2b53-4de6-8975-95c6fbde0ce6)
 
 To exit, type "quit", "exit", or "bye"
 
