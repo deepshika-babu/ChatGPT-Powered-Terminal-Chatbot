@@ -1,7 +1,13 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
 
 # Initialize OpenAI client
-client = OpenAI(api_key="Add-your-api-key-here") 
+client = OpenAI(api_key=api_key) 
 
 def chat_with_gpt(prompt):
     response = client.chat.completions.create(
